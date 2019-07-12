@@ -2,9 +2,9 @@ package server
 
 import (
     "net/http"
-    "../config"
-    "../log"
-    "../cron"
+    "github.com/saurabhguptag/event-cron/config"
+    "github.com/saurabhguptag/event-cron/log"
+    "github.com/saurabhguptag/event-cron/cron"
 )
 
 func handler(w http.ResponseWriter, r *http.Request) {

@@ -1,14 +1,14 @@
 package cron
 
 import (
-    "../log"
     "bufio"
     "regexp"
     "strings"
     "os"
     "os/exec"
     "github.com/robfig/cron"
-    "../config"
+    "github.com/saurabhguptag/event-cron/log"
+    "github.com/saurabhguptag/event-cron/config"
 )
 
 type Job struct {
