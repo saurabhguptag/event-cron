@@ -1,0 +1,7 @@
+# comment this way
+#45 23 * * 6 date
+#@daily date
+# @every 1s date >> /opt/tests.txt
+
+# @@my-event-1 ls
+#@@my-another-event ls

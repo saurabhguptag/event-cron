@@ -1,0 +1,9 @@
+{
+    "name" : "event-cront",
+    "server" : {
+        "host" : "localhost",
+        "port" : "9999"
+    },
+    "loglevel" : "debug",
+    "cronFilePath" : "config/cronjob"
+}
