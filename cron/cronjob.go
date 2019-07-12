@@ -7,7 +7,7 @@ import (
     "strings"
     "os"
     "os/exec"
-    "github.com/robfig/cron/v3"
+    "github.com/robfig/cron"
     "../config"
 )
 
